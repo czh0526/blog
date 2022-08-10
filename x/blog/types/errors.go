@@ -10,3 +10,8 @@ import (
 var (
 	ErrSample = sdkerrors.Register(ModuleName, 1100, "sample error")
 )
+
+var (
+	ErrCommentOld = sdkerrors.Register(ModuleName, 1300, "")
+	ErrId         = sdkerrors.Register(ModuleName, 1400, "")
+)
